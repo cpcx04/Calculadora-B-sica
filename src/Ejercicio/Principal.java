@@ -9,6 +9,8 @@ public class Principal {
 
 		int num1, num2;
 		int resultado;
+		
+		double divisor,dividendo,resto,resultado2;
 
 		int eleccion;
 		Scanner lectura = new Scanner(System.in);
@@ -49,6 +51,13 @@ public class Principal {
 
 				break;
 			case 4:
+				System.out.println("Indique los numero que desea divir");
+				dividendo=lectura.nextDouble();
+				System.out.println("Num2:");
+				divisor=lectura.nextDouble();
+				
+				resultado2=dividendo/divisor;
+				System.out.printf("\nResultado: "+ resultado2);
 				break;
 				
 
