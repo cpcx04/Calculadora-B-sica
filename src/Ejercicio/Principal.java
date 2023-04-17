@@ -28,6 +28,15 @@ public class Principal {
 		resultado=num1+num2;
 		System.out.println("Resultado : "+resultado);
 		System.out.println("Resta completada");
+		
+		System.out.println("Indique los numeros que desea multiplicar");
+		num1=lectura.nextInt();
+		System.out.println("Num2: ");
+		num2=lectura.nextInt();
+		resultado=num1*num2;
+		System.out.println("Resultado : "+resultado);
+		System.out.println("Multipliacion completada");
+		
 
 		
 		
