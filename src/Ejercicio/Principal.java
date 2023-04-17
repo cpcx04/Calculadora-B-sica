@@ -18,7 +18,7 @@ public class Principal {
 		do {
 			System.out.println("Que desea hacer:");
 			eleccion = lectura.nextInt();
-
+			menuPrincipal();
 			switch (eleccion) {
 			case 1:
 				System.out.println("Indique los numeros que desea sumar");
@@ -48,6 +48,9 @@ public class Principal {
 				System.out.println("Multipliacion completada");
 
 				break;
+			case 4:
+				break;
+				
 
 			}
 
@@ -55,4 +58,8 @@ public class Principal {
 
 	}
 
+	public static void menuPrincipal() {
+		System.out.println("1.Suma \t\t 2.Resta \n"
+				+ "3.Multipliacion \t\t 4.Division");
+	}
 }
