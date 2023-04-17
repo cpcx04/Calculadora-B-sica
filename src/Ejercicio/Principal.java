@@ -21,6 +21,16 @@ public class Principal {
 		System.out.println("Resultado : "+resultado);
 		System.out.println("Suma completada");
 		
+		System.out.println("Indique los numeros que desea restar");
+		num1=lectura.nextInt();
+		System.out.println("Num2: ");
+		num2=lectura.nextInt();
+		resultado=num1+num2;
+		System.out.println("Resultado : "+resultado);
+		System.out.println("Resta completada");
+
+		
+		
 	}
 
 }
